@@ -1,0 +1,34 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+
+
+body {
+  color: #484848;
+  background-color: #E9F2E4;
+  font-family: 'Lato', sans-serif;
+  padding: .45em 2.65em 3em;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 750px;
+}
+
+button {
+  background-color: lightblue;
+  color: #484848;
+  padding: 3px 3px;
+  box-shadow: 5px;
+  margin: 0 5px;
+}
+
+p.top {
+  border-bottom: 1px dotted grey;
+  margin-bottom: 50px;
+}
+
+li {
+  list-style:none;
+  margin-left: -40px;
+  margin-top: 5px;
+  width: 100%;
+}
+
