@@ -38,19 +38,28 @@ li {
   
   body {
     background-color: #DBFFFF;
-    font-size: 1.5rem
+    font-size: 1.2rem
   }
   
   button {
     background-color: crimson;
     color: aliceblue;
     padding: 16px 12px;
-    margin: 5px 5px;
+    margin: 2px 2px;
+  }
+  
+  p.top {
+    margin-bottom: 5px;
+  }
+  #liColor {
+    width: 50px;
   }
   
   input {
-   width: 300px;
+   width: 200px;
    height: 60px;
+   margin: 0 auto 2px auto;
+   
   }
   
   li {
@@ -58,6 +67,9 @@ li {
   }
   
   ul {
-    border-bottom: 2px dotted red;
+    border-bottom: 2px dotted grey;
+  }
+  .hideButton {
+    margin: 0 auto;
   }
 }
