@@ -44,6 +44,20 @@ li {
   button {
     background-color: crimson;
     color: aliceblue;
+    padding: 16px 12px;
+    margin: 5px 5px;
   }
   
+  input {
+   width: 300px;
+   height: 60px;
+  }
+  
+  li {
+    list-style:lower-alpha;
+  }
+  
+  ul {
+    border-bottom: 2px dotted red;
+  }
 }
