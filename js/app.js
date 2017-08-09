@@ -83,7 +83,7 @@ const WhatsAppBtn = document.querySelector('.WhatsAppBtn');
 
 WhatsAppBtn.addEventListener('click', ()=>{
   WhatsAppBtn.style.color = 'red';
-  location.href = '"whatsapp://send?text=Hello World!&phone=+972584909020"';
+  location.href = "whatsapp://send?text=Hello World!&phone=+972584909020";
 });
 
 
