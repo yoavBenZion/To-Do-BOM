@@ -82,7 +82,7 @@ liColorbutton.addEventListener('click', ()=>{
 const WhatsAppBtn = document.querySelector('.WhatsAppBtn');
 
 WhatsAppBtn.addEventListener('click', ()=>{
-  WhatsAppBtn.style.color = 'red';
+  WhatsAppBtn.style.color = '#F4F18D';
   location.href = "whatsapp://send?text=''";
 })
 
